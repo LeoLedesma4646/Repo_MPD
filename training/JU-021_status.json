@@ -1,0 +1,7 @@
+{
+  "sku": "JU-021",
+  "phase": "complete",
+  "time": 1791413960.408436,
+  "winner": "SARIMAX estacional",
+  "holdout_WAPE": 21.887257010049478
+}

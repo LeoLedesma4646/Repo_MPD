@@ -1,0 +1,7 @@
+{
+  "sku": "YO-009",
+  "phase": "complete",
+  "time": 1791421590.4999962,
+  "winner": "SARIMAX estacional",
+  "holdout_WAPE": 15.428257651241447
+}

@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# These three files are verified against SHA-256 recorded in a manifest.
+# Preserve their exact bytes during Git operations on Windows and Linux.
+artifacts/price_response.csv -text
+artifacts/price_response_manifest.json -text
+artifacts/price_scenario.csv -text

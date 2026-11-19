@@ -1,0 +1,7 @@
+{
+  "sku": "SN-013",
+  "phase": "complete",
+  "time": 1791415594.8402002,
+  "winner": "SARIMAX estacional",
+  "holdout_WAPE": 18.0182627054294
+}

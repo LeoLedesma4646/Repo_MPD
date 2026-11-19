@@ -1,0 +1,15 @@
+# Archivos generados y datos temporales
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+runs/*
+!runs/.gitkeep
+exports/*
+!exports/.gitkeep
+.DS_Store
+Thumbs.db

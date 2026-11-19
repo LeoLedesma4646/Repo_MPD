@@ -1,0 +1,23 @@
+ARCHIVO CORREGIDO PARA STREAMLIT CLOUD / GITHUB DESKTOP
+
+1. DESCOMPRIME el ZIP. NO subas el archivo .zip directamente a GitHub.
+2. En GitHub Desktop selecciona el repositorio CLONADO LeoLedesma4646/App_final
+   (NO uses Publish repository ni crees otro repositorio).
+3. Abre Repository > Show in Explorer.
+4. COPIA EL CONTENIDO de esta carpeta descomprimida dentro de la carpeta del
+   repositorio, permitiendo reemplazar archivos existentes. NO copies ninguna carpeta .git.
+5. GitHub Desktop: Changes > Summary = 'Corregir verificacion de modelos'
+   > Commit to main > Push origin.
+6. Streamlit volvera a desplegar automaticamente. En su configuracion conserva Python 3.12.
+
+CORRECCION
+- motor.py acepta diferencias entre CRLF (Windows) y LF (GitHub/Linux)
+  al verificar archivos de resultados, manteniendo la comprobacion SHA-256.
+- artifacts/price_scenario_manifest.json tiene huellas calculadas sobre los
+  archivos que se guardan en GitHub.
+- .gitattributes evita cambios futuros de saltos de linea en tres archivos
+  protegidos por checksum.
+- Incluye data/, artifacts/, models/, training/, .streamlit/ y el codigo web.
+
+ADVERTENCIA: la carpeta data/ contiene datos academicos; confirma que puedan
+estar en un repositorio publico antes de subirlos.

@@ -1,0 +1,7 @@
+{
+  "sku": "MI-026",
+  "phase": "complete",
+  "time": 1791414823.6283207,
+  "winner": "SARIMAX estacional",
+  "holdout_WAPE": 11.089900515906978
+}
